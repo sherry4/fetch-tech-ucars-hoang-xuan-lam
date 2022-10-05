@@ -1,0 +1,61 @@
+export const brandData = [
+  {
+    id: "bmw",
+    name: "BMW",
+    logo: "/images/Table.png",
+    desc: "Brand description too long...",
+    models: 1200,
+    lastUpdated: "25/12/2022",
+    active: false,
+  },
+  {
+    id: "mazda",
+    name: "Mazda",
+    logo: "/images/Table-1.png",
+    desc: "Audi Q7",
+    models: 800,
+    lastUpdated: "25/12/2022",
+    active: true,
+  },
+  {
+    id: "hyundai",
+    name: "Hyundai",
+    logo: "/images/Table-2.png",
+    desc: "Brand description too long...",
+    models: 620,
+    lastUpdated: "25/12/2022",
+    active: false,
+  },
+  {
+    id: "kia",
+    name: "Kia",
+    logo: "/images/Table-3.png",
+    desc: "Dodge Charger",
+    models: 1200,
+    lastUpdated: "25/12/2022",
+    active: true,
+  },
+  {
+    id: "nissan",
+    name: "Nissan",
+    logo: "/images/Table-4.png",
+    desc: "Brand description too long",
+    models: 4260,
+    lastUpdated: "25/12/2022",
+    active: false,
+  },
+  {
+    id: "toyota",
+    name: "Toyota",
+    logo: "/images/Table-5.png",
+    desc: "Jeep Grand Cherokee",
+    models: 1200,
+    lastUpdated: "25/12/2022",
+    active: true,
+  },
+];
+
+export const brandConditions = [
+  { label: "Active", value: "active" },
+  { label: "Inactive", value: "inactive" },
+];
