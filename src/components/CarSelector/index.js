@@ -163,7 +163,7 @@ export default function CarSelector() {
               boxShadow:
                 "0px 8px 16px 0px rgba(48, 49, 51, 0.1), 0px 0px 1px 0px rgba(48, 49, 51, 0.05)",
             }}
-            className="w-[500px] font-sans gap-y-4 flex flex-col absolute left-0 z-10 t-0 max-h-60 overflow-auto p-6 rounded-md bg-white"
+            className="lg:w-[500px] font-sans gap-y-4 flex flex-col absolute left-0 z-10 t-0 max-h-60 overflow-auto p-6 rounded-md bg-white"
           >
             {({ close }) => (
               <>
@@ -232,7 +232,7 @@ export default function CarSelector() {
             }}
             className={classNames(
               "font-sans gap-y-4 flex flex-col absolute left-0 z-10 t-0 max-h-60 w-full overflow-auto p-6 rounded-md bg-white",
-              "w-[400px]"
+              "lg:w-[400px]"
             )}
           >
             {({ close }) => (
