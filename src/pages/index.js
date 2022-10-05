@@ -139,7 +139,7 @@ const IndexPage = () => {
             Questions about buying or renting?
           </h1>
           <Button
-            className="absolute bottom-20 left-8 right-8 h-[60px] cursor-pointer lg:w-[400px] lg:left-20"
+            className="absolute bottom-20 left-8 right-8 h-[60px] cursor-pointer lg:w-[400px] lg:left-20 flex items-center justify-center"
             label="Ask us"
             type="red"
           />
