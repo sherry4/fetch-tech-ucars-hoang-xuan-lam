@@ -98,7 +98,7 @@ export default function Menu() {
           )}
           onClick={() => handleOnClick("setting")}
         >
-          <img src="/images/Setting.png" className="w-6 h-6 mr-3" />
+          <img src="/images/setting.png" className="w-6 h-6 mr-3" />
           {isMenuOpen && (
             <span
               className={classNames(

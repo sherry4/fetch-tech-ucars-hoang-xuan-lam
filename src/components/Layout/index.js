@@ -21,7 +21,7 @@ function Layout(props) {
       </aside>
       <main className={classNames("flex-1")}>
         <nav className="h-16 shadow-nav flex gap-x-6 w-full border-b border-gray-200 items-center justify-end pr-10">
-          <img src="/images/Info.png" className="w-6 h-6" />
+          <img src="/images/info.png" className="w-6 h-6" />
           <img src="/images/bell.png" className="w-6 h-6" />
           <div className="flex gap-x-2 items-center">
             <div className="rounded-full bg-lightGray w-8 h-8"></div>
